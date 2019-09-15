@@ -9,8 +9,8 @@ class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <div>
-       <Main />
+        <div className="App">
+          <Main />
         </div>
       </BrowserRouter>
     );
